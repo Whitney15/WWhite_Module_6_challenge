@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<body class="">
+  <header class="text-bg-primary p-3">
+    <h1 class="app-title">
+      <i class=""></i> Weather Dashboard
+    </h1>
+  </header>
+
+  <div class="container text-start">
+    <div class="row">
+      <div class="col-sm-4">
+        <!-- <div class="col-12 col-md-4"> -->
+
+          <div class="card">
+            <h3 class="">Search for a City:</h3>
+            <form id="user-form" class="card-body">
+              <!-- <label class="form-label" for="username">Username</label> -->
+              <input name="search-input" id="search-input" type="text" autofocus="true" class="form-input" placeholder="Search" />
+              <button id="click-button" type="submit" class="btn btn-primary">Search</button>
+            </form>
+          </div>
+
+          <form class="card">
+            <div id="language-buttons" class="d-grid gap-2">
+              <button data-language="Atlanta" class="btn btn-secondary">Atlanta</button>
+              <button data-language="Denver" class="btn btn-secondary">Denver</button>
+              <button data-language="Seattle" class="btn btn-secondary">Seattle</button>
+              <button data-language="San Francisco" class="btn btn-secondary">San Francisco</button>
+              <button data-language="Orlando" class="btn btn-secondary">Orlando</button>
+              <button data-language="New York" class="btn btn-secondary">New York</button>
+              <button data-language="Chicago" class="btn btn-secondary">Chicago</button>
+              <button data-language="Austin" class="btn btn-secondary">Austin</button>
+            </div>
+          </form>
+        <!-- </div> -->
+
+      </div>
+      <div class="col-6">
+  <div class="container">
+    <!-- <div class="col-12 col-md-8"> -->
+      <h2 class="subtitle">Weather results here:<span id="repo-search-term"></span></h2>
+      <div id="repos-container" class="list-group"></div>
+    <!-- </div> -->
+
+    
+    <div class="weather-results-card">
+      <h1 class="city-name-here">Atlanta</h1>
+      <h2 class="current-date">Date</h2>
+        <div class="weather-details">
+          <div class="celcius-info">
+            <p>Tempature:</p>
+            <p class="celcius">76.62</p>
+          </div>
+          <div class="wind-info">
+            <p>Wind:</p>
+            <p class="wind-speed">8.43 MPH</p>
+          </div>
+          <div class="humidity-info">
+            <p>Humidity:</p>
+            <p class="humidity">44%</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container text-start">
+    <div class="row">
+      <!-- card 1 -->
+      <div class="col col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- card 2 -->
+        <div class="col col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+
+          <!-- card 3 -->
+      <div class="col col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- card 4 -->
+        <div class="col col-sm">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+  <script src="./assets/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+</body>
+
+</html>
