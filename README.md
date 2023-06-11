@@ -2,25 +2,28 @@
 Weather Dashboard
 
 
-## USER STORY
+## What is this weather Dashboard for?
 * AS A traveler I WANT to see the weather outlook for multiple cities SO THAT I can plan a trip accordingly
 
-## Acceptance Criteria
+# Why?
+* I built this weatherdash board as a homework assignment to apply a Server Side- API
 
-GIVEN a weather dashboard with form inputs 
+# How?
+* I am using a weather API from https://openweathermap.org/current to pull data from the server that will show a searched cities current wether. I also used Bootstrap for some CSS styling.
 
-WHEN I search for a city THEN I am presented with current and future conditions for that city and that city is added to the search history
+I present the user with the follwing weather info:
+- City Name
+- Current Date
+- Temperture (celcius)
+- Wind Speed
+- Humidity
 
-WHEN I view current weather conditions for that city THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+* A User  uses the search Input to type in a city to view the cities current weather.
 
-WHEN I view future weather conditions for that city THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+# Future applications to add?
+- Connect the Pre selected city buttons to there API information
 
-WHEN I click on a city in the search history THEN I am again presented with current and future conditions for that city
+- Connect the follwing 4 day weather forcast cards i created.
 
-- use Local Storage to store persisent data
-
-## Mock-up
-https://courses.bootcampspot.com/courses/3901/files/2564765/preview
-
-
+- Complete the CSS plans
 

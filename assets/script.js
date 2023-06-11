@@ -70,7 +70,7 @@ searchButton.addEventListener('click', async (event) => {
   // }
 });
 
-// ISSUE not changing titles
+// pulling the weather API data to the HTML 
 let currentWeatherInfo = (data) => {
   console.log("burrito")
   city.textContent = data.name + ', ' + data.sys.country;
